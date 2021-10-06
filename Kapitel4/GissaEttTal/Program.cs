@@ -31,7 +31,7 @@ namespace GissaEttTal
             {
             Console.WriteLine("Nice");
             Console.WriteLine($"Bra gissat! Du gjorde på {räknare} försök");
-            break;60
+            break;
             }
          
             //jamför med slump tal

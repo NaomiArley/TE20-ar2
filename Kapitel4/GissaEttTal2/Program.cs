@@ -22,23 +22,23 @@ namespace GissaEttTal2
               räknare++;
 
               //   bryt efter 5 varv
-              if (räknare <= 6)
+              if (räknare > 6)
               {
                   break;
               }
+                 Console.Write("Gissa ett tal (1-100)");
+            int gissning = int.Parse(Console.ReadLine());
 
-              Console.Write("Gissa ett tal mellan 1-50");
-              int gissning = int.Parse(Console.ReadLine());
-              
-                //är gissning rätt
-              if (gissning == slumptal)
-              {
-                Console.WriteLine("Nice");
-                Console.WriteLine($"Bra gissat! Du gjorde på {räknare} försök");
-                break;
-              }
-              //jamför med slumptal
-             if (gissning < slumptal)
+            //är gissningen rätt?
+            if (gissning== slumptal)
+            {
+            Console.WriteLine("Nice");
+            Console.WriteLine($"Bra gissat! Du gjorde på {räknare} försök");
+            break;
+            }
+         
+            //jamför med slump tal
+            if (gissning < slumptal)
             {
              Console.WriteLine("För lågt");
              
@@ -47,6 +47,7 @@ namespace GissaEttTal2
             {
              Console.WriteLine("för högt");
             }
+             
               
               int försök = 5;
               int försökkvar = försök - räknare;
