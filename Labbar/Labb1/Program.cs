@@ -25,11 +25,7 @@ namespace Labb1
                 {
                     meddelandeKrypterad += " ";
                 }
-                else if (bokstav == 'ä')
-                {
-                    int kod = (int)bokstav;
-                    char bokstavKrypterad = (char)(kod);
-                    meddelandeKrypterad += bokstavKrypterad + nyckel ;
+               
                 }
                 else
                 {
