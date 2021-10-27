@@ -25,8 +25,7 @@ namespace Labb1
                 {
                     meddelandeKrypterad += " ";
                 }
-               
-                }
+                
                 else
                 {
 
