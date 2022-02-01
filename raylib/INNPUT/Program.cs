@@ -20,7 +20,7 @@ namespace INNPUT
             Rectangle spelare2 = new Rectangle(200,200,50,50);
             //ladda bild för spelaren
             Texture2D star = Raylib.LoadTexture(@"./resurser/star.png");
-            Texture2D star2 = Raylib.LoadTexture(@"./resurser/star(1).png");
+            Texture2D star2 = Raylib.LoadTexture(@"./resurser/star2.png");
             
             // Animationsloopen
             while (!Raylib.WindowShouldClose())
