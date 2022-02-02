@@ -30,7 +30,7 @@ namespace snöflingor
             //loopa igenom arrayen storlekar och ändrar storlek
             for (int i = 0; i < flingor.Length; i++)
             {
-                storlek[i] = generator.Next(5, 23);
+                storlek[i] = generator.Next(5, 14);
             }
 
             //loopa igenom arrayen och fyll med snöflingor
